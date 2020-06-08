@@ -31,4 +31,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploy on surge
-      run: surge ./ http://bootcamp1.surge.sh --token ${{secrets.BOOT_TOKEN}} 
+      run: surge ./ http://ambiguous-table.surge.sh --token ${{secrets.BOOT_TOKEN}} 
